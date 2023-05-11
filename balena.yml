@@ -1,7 +1,7 @@
 name: balena-idler
 joinable: False
 type: sw.application
-post-provissioning: >-
+post-provisioning: >-
 balenaCloud container designed to idle effortlessly... and perhaps even capture insightful metrics on idling activities in the future, if I find the time!
 
 Are you tired of managing and monitoring your containers actively? Look no further! With balena-idler, you can enjoy the benefits of a container that idles gracefully, conserving resources while remaining ready for action whenever you need it.
