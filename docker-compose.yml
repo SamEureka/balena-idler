@@ -1,0 +1,9 @@
+version: '2.4'
+services:
+  idler:
+    build: ./idler
+    labels:
+      io.balena.features.dbus: 1
+    restart: always
+    network_mode: host
+  

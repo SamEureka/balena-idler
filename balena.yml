@@ -1,0 +1,20 @@
+name: balena-idler
+joinable: False
+type: sw.application
+description: >-
+  balenaCloud app that just idles... might add some metrics on idling later, if I get around to it ;-D
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/SamEureka/balena-idler'
+  logo:
+    type: blob.asset
+    data:
+      url: >-
+        https://raw.githubusercontent.com/balenalabs/balena-sound/master/logo.png
+  defaultDeviceType: generic-amd64
+  supportedDeviceTypes:
+    - generic-amd64
+    - intel-nuc
+version: 1.0.2
