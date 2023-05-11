@@ -16,5 +16,14 @@ assets:
   defaultDeviceType: generic-amd64
   supportedDeviceTypes:
     - generic-amd64
+    - genericx86-64-ext
     - intel-nuc
-version: 1.0.2
+    - raspberrypi4-64
+    - raspberrypicm4-ioboard
+    - raspberrypi0-2w-64
+    - raspberrypi400-64
+    - raspberrypi3-64
+    - raspberry-pi2
+    - raspberrypi3
+    - fincm3
+version: 1.0.3
