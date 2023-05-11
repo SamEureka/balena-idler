@@ -2,7 +2,7 @@
 
 ARG BALENA_ARCH=%%BALENA_ARCH%%
 
-FROM balenalib/$BALENA_ARCH-ubuntu-python
+FROM balenalib/$BALENA_ARCH-debian-python
 WORKDIR /usr/src/lazy
 RUN install_packages nano htop
 COPY entry.sh .
