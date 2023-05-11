@@ -12,7 +12,7 @@ assets:
     type: blob.asset
     data:
       url: >-
-        https://raw.githubusercontent.com/balenalabs/balena-sound/master/logo.png
+        https://raw.githubusercontent.com/SamEureka/balena-idler/main/lazy-icon.jpg
   defaultDeviceType: generic-amd64
   supportedDeviceTypes:
     - generic-amd64
