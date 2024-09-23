@@ -4,6 +4,6 @@ ARG BALENA_ARCH=%%BALENA_ARCH%%
 
 FROM balenalib/$BALENA_ARCH-ubuntu-python
 WORKDIR /usr/src/lazy
-RUN install_packages nano htop
-COPY entry.sh .
+RUN install_packages nano btop htop curl wget
+COPY . ./
 ENTRYPOINT [ "/bin/bash", "/usr/src/lazy/entry.sh"]
